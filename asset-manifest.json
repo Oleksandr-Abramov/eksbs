@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/eksbs/static/css/main.69bcb488.css",
+    "main.js": "/eksbs/static/js/main.f8cce835.js",
+    "static/media/383027.png": "/eksbs/static/media/383027.9386a1ddc3bdfa717707.png",
+    "static/media/356454.jpg": "/eksbs/static/media/356454.17e96cc109a1823a879e.jpg",
+    "static/media/394625.jpg": "/eksbs/static/media/394625.630ab5402c3eba4fa767.jpg",
+    "static/media/394627.jpg": "/eksbs/static/media/394627.f5b5e5a8322363ae4820.jpg",
+    "static/media/394623.jpg": "/eksbs/static/media/394623.cf2698809aea0c6f4ca8.jpg",
+    "static/media/the-alps-4209272_1280.webp": "/eksbs/static/media/the-alps-4209272_1280.3ce59f4116ddf2cc18fb.webp",
+    "static/media/container-4203677_1280.webp": "/eksbs/static/media/container-4203677_1280.6c8f0c2220b4b0326b75.webp",
+    "static/media/mountains-3674334_1280.jpg": "/eksbs/static/media/mountains-3674334_1280.2a0823dab41c11669703.jpg",
+    "static/media/Андріївська.jpg": "/eksbs/static/media/Андріївська.86df92b2dc6717875ed5.jpg",
+    "static/media/landscape-4208255_1280.webp": "/eksbs/static/media/landscape-4208255_1280.10a44c2f23f79e02a0e1.webp",
+    "static/media/himilayan-blue-poppy-4202825_1280.jpg": "/eksbs/static/media/himilayan-blue-poppy-4202825_1280.914d55fbbfd066d1c29f.jpg",
+    "static/media/flowers-1835619_1280.webp": "/eksbs/static/media/flowers-1835619_1280.f7a536446b6732bda4d7.webp",
+    "static/media/Шевченка.webp": "/eksbs/static/media/Шевченка.d923652a14eb8b044cd2.webp",
+    "static/media/slick.svg": "/eksbs/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/eksbs/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/eksbs/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/eksbs/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/eksbs/index.html",
+    "main.69bcb488.css.map": "/eksbs/static/css/main.69bcb488.css.map",
+    "main.f8cce835.js.map": "/eksbs/static/js/main.f8cce835.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.69bcb488.css",
+    "static/js/main.f8cce835.js"
+  ]
+}
