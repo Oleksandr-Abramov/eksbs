@@ -1,0 +1,117 @@
+/* Position and sizing of burger button */
+
+.bmBurgerButton {
+  display: none;
+  position: absolute;
+  width: 36px;
+  height: 30px;
+  right: 36px;
+}
+
+@media screen and (max-width: 955px) {
+  .bmBurgerButton {
+    display: block;
+    top: 25px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .bmBurgerButton {
+    top: 16px;
+    right: 16px;
+  }
+}
+
+/* Color/shape of burger icon bars */
+.bmBurgerBars {
+  background: var(--font-color);
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bmBurgerBars:hover {
+  background: var(--font-color);
+}
+
+/* Position and sizing of clickable cross button */
+.bmCrossButton {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bmCross {
+  background: #bdc3c7;
+}
+
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+/* .bmMenuWrap {
+  position: fixed;
+  height: 100%;
+} */
+
+/* General sidebar styles */
+.bmMenu {
+  background: var(--mb-navigation-bg-color);
+  /* padding: 2.5em 1.5em 0; */
+  font-size: 15px;
+}
+
+/* Morph shape necessary with bubble or elastic */
+/* .bmMorphShape {
+  fill: #373a47;
+} */
+
+/* Wrapper for item list */
+/* .bmItemList {
+  color: #daca21;
+ 
+} */
+
+/* Individual item */
+.bmItem {
+  display: inline-block;
+}
+
+/* Styling of overlay */
+.bmOverlay {
+  background: var(--mb-overlay-bg-color);
+}
+
+/* Sub-menu*/
+.btnMenu,
+.btnMenuAccent {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  font-weight: 700;
+  list-style: 1.17;
+  width: 100%;
+  height: 60px;
+  border: 0px;
+  color: var(--mb-dropbox-font-color);
+  /* outline: 1px solid rgb(13, 64, 64); */
+}
+.btnMenuAccent {
+  color: var(--font-accent-color);
+  background-color: var(--navigation-accent-hover);
+}
+
+.arrowContainer {
+  position: relative;
+}
+
+.arrow {
+  position: absolute;
+  right: -30px;
+  top: -3px;
+  width: 20px;
+  transition: all 0.2s ease;
+}
+
+.arrowUp {
+  transform: rotateZ(180deg);
+}

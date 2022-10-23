@@ -1,0 +1,54 @@
+.footer {
+  background-color: rgb(53, 53, 53);
+  color: #858585;
+  padding: 30px 0 30px 0;
+}
+
+.footerContainer {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 10px 0 10px;
+}
+@media screen and (max-width: 768px) {
+  .footerContainer {
+    display: block;
+  }
+}
+.linkFacebook {
+  display: flex;
+  color: #858585;
+}
+.iconFacebook {
+  margin-right: 7px;
+  width: 12px;
+}
+.iconFacebook:hover,
+.linkFacebook:hover {
+  color: white;
+}
+.addressContainer {
+  display: flex;
+  flex-direction: column;
+}
+.adressLink {
+  margin-bottom: 7px;
+  color: #858585;
+}
+
+.adressLink:hover {
+  color: rgb(255, 255, 255);
+}
+
+.adressItem {
+  margin-bottom: 7px;
+}
+.formTitle {
+  margin-bottom: 7px;
+  text-align: center;
+}
+.formContainer {
+  max-width: 400px;
+  text-align: center;
+}

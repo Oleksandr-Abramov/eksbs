@@ -1,0 +1,36 @@
+.section {
+  margin: 20px 0 20px;
+}
+/* .list {
+} */
+.item {
+  display: flex;
+  margin-top: 10px;
+}
+@media screen and (max-width: 768px) {
+  .item {
+    display: block;
+  }
+}
+
+.title {
+  text-align: center;
+}
+.itemContainerUp {
+  padding-left: 10px;
+  width: 50%;
+}
+.itemContainerDown {
+  padding-right: 10px;
+  width: 50%;
+}
+.itemImg {
+  width: 50%;
+}
+@media screen and (max-width: 768px) {
+  .itemImg,
+  .itemContainerDown,
+  .itemContainerUp {
+    width: 100%;
+  }
+}

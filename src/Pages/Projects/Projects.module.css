@@ -1,0 +1,117 @@
+/* .block_1 {
+  display: inline;
+  max-width: 100%;
+  overflow: hidden;
+  position: relative;
+  background-size: cover;
+}
+.block_2 {
+  pointer-events: none;
+  display: inline;
+  position: absolute;
+  visibility: hidden;
+  left: 1px;
+  background: rgba(0, 0, 0, 0.4392156862745098);
+  font-size: 20px;
+  color: white;
+  width: 100%;
+  height: 100%;
+  top: 160px;
+}
+.block_2 p {
+  padding: 110px 0px;
+  text-align: center;
+}
+.block_1:hover .block_2 {
+  visibility: visible;
+  transition: 1s;
+  -webkit-transition: 1s;
+  transform: translatey(-160px);
+  -webkit-transform: translatey(-160px);
+}
+.block_1:hover {
+  filter: sepia(50%);
+  -webkit-filter: sepia(60%);
+  transition: 0.6s;
+  -webkit-transition: 0.6s;
+} */
+
+.block_1 {
+  display: inline-block;
+  position: relative;
+}
+
+.block_2 {
+  pointer-events: none;
+  display: none;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: 'Segoe UI';
+  line-height: 300px;
+  text-align: center;
+  color: #fff;
+}
+.block_1:hover .block_2 {
+  position: absolute;
+  top: 100px;
+  display: block;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.block_1:hover .block_2 {
+  visibility: visible;
+  transition: 1s;
+  -webkit-transition: 1s;
+  transform: translatey(-160px);
+  -webkit-transform: translatey(-160px);
+}
+
+.galleryContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1vmin 1vmin;
+}
+
+.imgContainer {
+  /* max-width: 635px; */
+  width: 49.4%;
+  max-height: 415px;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+}
+
+@media screen and (max-width: 768px) {
+  .imgContainer {
+    width: 100%;
+  }
+}
+
+.imgTitle {
+  padding: 10px;
+  padding-left: 10px;
+  pointer-events: none;
+  display: inline;
+  position: absolute;
+  visibility: hidden;
+  /* left: 1px; */
+  background: rgba(0, 0, 0, 0.4392156862745098);
+  font-size: 20px;
+  color: white;
+  width: 100%;
+  height: 100%;
+  transition: 0.5s;
+  top: 0;
+  opacity: 0;
+}
+.imgContainer:hover .imgTitle {
+  visibility: visible;
+  transition: 0.5s;
+  /* -webkit-transition: 0.5s; */
+  opacity: 1;
+  /* transform: translatey(-160px);
+  -webkit-transform: translatey(-160px); */
+}
+.img {
+  object-fit: cover;
+}

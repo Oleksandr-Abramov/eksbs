@@ -1,0 +1,134 @@
+.navList,
+.navContainer,
+.header {
+  display: flex;
+  position: relative;
+  align-items: center;
+  z-index: 10;
+}
+
+@media screen and (max-width: 955px) {
+  .navList {
+    display: none;
+  }
+}
+
+.header {
+  background-color: var(--header-bg-color);
+  justify-content: space-between;
+  padding: 0px 20px 0px 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    padding: 0px 5px 0px 5px;
+  }
+}
+
+.item {
+  min-width: 138px;
+  text-align: center;
+}
+
+.link {
+  display: inline-flex;
+  position: relative;
+}
+
+.btnMenu,
+.btnMenuAccent {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  list-style: 1.17;
+  height: 80px;
+  border: 0px;
+  color: var(--font-color);
+  /* outline: 1px solid rgb(13, 64, 64); */
+}
+
+@media screen and (max-width: 1280px) {
+  .btnMenu,
+  .btnMenuAccent {
+    width: 115px;
+  }
+}
+
+.btnMenu::after {
+  content: '';
+  position: absolute;
+  top: 52px;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background-color: var(--accent-color);
+  opacity: 0;
+  transition: opacity 200ms linear, transform 200ms ease-in-out;
+}
+
+.btnMenu:hover::after {
+  opacity: 1;
+}
+
+.btnMenuAccent::after {
+  opacity: 1;
+  content: '';
+  position: absolute;
+  top: 52px;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  border-radius: 2px;
+  background-color: var(--accent-color);
+}
+
+/* .submenuBuildingContainer {
+  width: 100%;
+  height: 100%;
+  display: block;
+} */
+
+/* .subMenuBuilding {
+  pointer-events: none;
+  z-index: -1;
+  opacity: 0;
+  transition: pointer-events 200ms;
+  transition: opacity 200ms linear, transform 200ms ease-in-out;
+} */
+
+/* .link:hover + .subMenuBuilding {
+  pointer-events: all;
+  z-index: 1;
+  opacity: 1;
+} */
+/* .subMenuBuilding:hover {
+  pointer-events: all;
+  opacity: 1;
+  z-index: 1;
+} */
+
+/* .subMenuBuilding:active {
+  opacity: 0;
+  pointer-events: none;
+  z-index: -1;
+} */
+
+.submenuContainer {
+  position: relative;
+  display: block;
+}
+
+.phoneNumber {
+  font-size: 15px;
+  font-weight: 700;
+  list-style: 1.17;
+  color: var(--font-color);
+}
+
+@media screen and (max-width: 1280px) {
+  .phoneNumber {
+    display: none;
+  }
+}

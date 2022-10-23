@@ -1,0 +1,81 @@
+@import-normalize; /* bring in normalize.css styles */
+
+/* @font-face {
+  font-family: 'Pattaya', sans-serif;
+  src: url('https://fonts.googleapis.com/css2?family=Pattaya&display=swap');
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+:root {
+  --header-bg-color: #ffffffc3;
+  --navigation-accent-hover: #9a9ea2d0;
+  --font-color: #707070;
+  --font-accent-color: #ffffff;
+  --accent-color: #c1eae9;
+  --mb-dropbox-bg-color: #3d414f;
+  --mb-dropbox-accent-color: #7c7f83d0;
+  --mb-dropbox-font-color: #bfbfbf;
+  --mb-navigation-bg-color: #4e5365;
+  --mb-overlay-bg-color: rgba(0, 0, 0, 0.3);
+}
+
+ul {
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+p {
+  color: var(--font-color);
+  font-size: 16px;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  border: none;
+}
+a {
+  text-decoration: none;
+}
+img,
+svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  display: none;
+}
+address {
+  font-style: normal;
+}
+address > a {
+  color: white;
+}

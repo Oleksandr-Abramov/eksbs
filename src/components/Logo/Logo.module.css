@@ -1,0 +1,39 @@
+.logoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 186px;
+  height: 80px;
+  object-fit: cover;
+}
+
+@media screen and (max-width: 1280px) {
+  .logoContainer {
+    width: 113px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .logoContainer {
+    height: 60px;
+  }
+}
+
+.logoText {
+  font-family: Ubuntu;
+  color: var(--font-color);
+  font-size: 18px;
+  font-weight: 700;
+}
+@media screen and (max-width: 1280px) {
+  .logoText {
+    display: none;
+  }
+}
+.logoImg {
+  max-width: 113px;
+}
+@media screen and (max-width: 768px) {
+  .logoImg {
+    width: 87px;
+  }
+}
